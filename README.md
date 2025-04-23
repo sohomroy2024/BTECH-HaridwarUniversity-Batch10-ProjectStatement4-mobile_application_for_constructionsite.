@@ -9,9 +9,9 @@ A React-based user interface for monitoring PPE compliance and labor movement on
 - Individual worker compliance history
 
 ## Technologies
-- React
-- Tailwind CSS
-- shadcn/ui
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Getting Started
 ```bash
