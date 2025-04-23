@@ -1,96 +1,87 @@
-🛡️ SafeSite - Construction PPE & Worker Tracking App
-📱 Project Overview
-SafeSite is a mobile-first application built to enhance safety and operational oversight on construction sites. The application provides real-time tracking of workers, monitors PPE (Personal Protective Equipment) compliance, and identifies safety violations as they happen. This project was developed as a part of an academic initiative under Critical Thinking, Design Thinking, Leadership, and Framework.
+# SafeSite--tracker
+# 🛡️ SafeSite - Construction PPE & Worker Tracking App
 
-🎯 Problem Statement
-Construction environments are inherently hazardous, and lack of proper PPE or monitoring can lead to serious injuries. SafeSite addresses these challenges by providing:
+## 📱 Project Overview
 
-Live tracking of worker movement within the construction site.
+**SmartSite Tracker** is a mobile application designed to improve safety and efficiency at construction sites by tracking labor movement and ensuring workers are equipped with proper Personal Protective Equipment (PPE). This project is developed as part of a coursework assignment under **Critical Thinking, Design Thinking, Leadership, and Framework**.
 
-Automatic detection of PPE compliance using digital checks.
+---
 
-Notifications for safety breaches or unauthorized access.
+## 🎯 Problem Statement
 
-Historical logs and reports for audits and compliance checks.
+Construction sites often lack proper monitoring mechanisms to track worker location and safety compliance. This app addresses:
 
-🧠 Design Thinking Approach (Business Model Canvas)
+- Real-time tracking of construction labor movement.
+- Monitoring of PPE usage within designated safety zones.
+- Instant alerts for non-compliance.
+- Detailed analytics and reporting for site supervisors.
 
-Section	Description
-Customer Segments	Construction firms, safety auditors, HR managers
-Value Proposition	Enhanced safety, reduced liability, automated compliance
-Channels	Mobile app, web dashboard (future), alerts via email/SMS
-Customer Relationships	In-app support, proactive maintenance, training modules
-Revenue Streams	SaaS subscriptions, enterprise packages, add-on features
-Key Resources	Development team, GPS & PPE detection modules, cloud infrastructure
-Key Activities	App development, user onboarding, real-time monitoring
-Key Partners	PPE manufacturers, IoT hardware providers, construction consultants
-Cost Structure	R&D, cloud hosting, integration, support services
-📲 App Features
-🔐 User authentication (login/signup)
+---
 
-📍 Dashboard with live worker stats
+## 🧠 Design Thinking Approach (Business Model Canvas)
 
-🗺️ Real-time map showing safety zones and worker positions
+| Section              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **Customer Segments**| Construction companies, safety officers, project managers                   |
+| **Value Proposition**| Safer sites, real-time compliance, reduced incidents                        |
+| **Channels**         | Mobile app, on-site installations, integrations with existing systems       |
+| **Customer Relationships**| Dedicated support, onboarding sessions, feedback-driven updates      |
+| **Revenue Streams**  | Subscription model, freemium version, enterprise licensing                  |
+| **Key Resources**    | GPS and RFID tech, mobile development team, cloud hosting                   |
+| **Key Activities**   | App development, data collection, support, maintenance                      |
+| **Key Partners**     | Construction firms, safety equipment vendors, IoT sensor providers          |
+| **Cost Structure**   | Development, hosting, marketing, customer support                           |
 
-🧾 Worker detail screen with compliance logs
+---
 
-📊 Compliance rate analytics
+## 📲 App Features
 
-📣 Instant alerts on safety breaches
+- 🔐 Login & secure access
+- 📍 Live map with worker locations
+- 🧑‍🔧 Worker profile with photo and PPE status
+- 🚨 Real-time safety alerts
+- 📊 Compliance analytics & reports
+- ⚙️ Settings & profile management
 
-🛠️ Tools & Technologies
-UI Design: Figma
+---
 
-Frontend (Prototype): HTML, CSS, JavaScript
+## 🛠️ Tools & Technologies
 
-Backend (Planned): Node.js / Firebase
+- **UI Design**: Figma  
+- **Development (Proposed)**: Flutter / React Native  
+- **Backend (Proposed)**: Firebase / Node.js  
+- **Database**: Firestore / MongoDB  
+- **Other**: GPS & RFID Integration (Hardware layer)
 
-Database (Planned): Firestore / MongoDB
+---
 
-Hardware: GPS, PPE detection system integration (IoT-based)
+## 👣 Customer Journey Map
 
-👣 Customer Journey Map
-The user experience of the app spans five key stages:
+The app user’s journey goes through the following stages:
 
-Awareness – Discovered through safety campaigns or firm initiatives.
-
-Consideration – Engages with app demo or pilot trial.
-
-Adoption – Integrated into daily site management with user training.
-
-Retention – Relies on features for ongoing safety monitoring.
-
-Advocacy – Recommends app to other firms/sites based on success.
-
-
-🖼️ App UI Preview
-Here’s a glimpse of the app interface showing login, dashboard, map view, and worker detail screens.
+1. **Awareness**: Discover the app via seminars or referrals.
+2. **Consideration**: Explore features through a demo or trial.
+3. **Adoption**: Deploy on a site with training and support.
+4. **Retention**: Use reports and alerts for ongoing safety compliance.
+5. **Advocacy**: Recommend to peers and other construction sites.
 
 
-📁 Project Structure
-bash
-Copy
-Edit
-SafeSite/
-│
-├── README.md                  # Project documentation
-├── index.html                 # Login page
-├── styles/
-│   └── style.css              # UI styling
-├── scripts/
-│   └── main.js                # JavaScript logic
-├── assets/
-│   ├── app_ui_image.png       # Screenshots of the UI
-│   └── customer_journey_map.png # Customer journey illustration
-└── LICENSE                    # (optional) Open source license
-🚀 How to Run Locally
-Clone the repository:
-git clone https://github.com/your-username/safesite.git
+## 📌 Future Scope
 
-Navigate to the folder:
-cd safesite
+- Integration with helmet and vest sensors
+- Voice command support for hands-free use
+- Multilingual accessibility
+- AI-based risk prediction
 
-Open index.html in your browser to view the login screen.
+---
 
-📩 Feedback & Contributions
-We welcome ideas and suggestions! If you'd like to contribute, feel free to fork the repo and open a pull request. For any issues, please use the GitHub issue tracker.
+## ✍️ Authors
+
+- 👨‍💻 **SOHOM ROY**
+- 🏫 Project for Critical Thinking, Design Thinking, Leadership & Framework Course
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
